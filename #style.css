@@ -1,0 +1,59 @@
+
+h1{
+    text-align: center;
+}
+#msg
+
+{
+    text-align: center;
+    color: black;
+}
+.container
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.game
+{
+    width: 60vmin;
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.box
+{
+
+    width: 18vmin;
+    height: 18vmin;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2rem 1rem 1rem rgba(5, 3,2, 10);
+    background-color: rgb(82, 61, 61);
+
+}
+.box:hover{
+   background-color: aqua;
+}
+
+#resetgame:hover
+{
+    box-shadow: 2rem 1rem 1rem rgba(5, 3,2, 10);
+}
+#resetgame
+{
+color: black;
+background-color: rgb(27, 49, 247);
+border-radius: 25px;
+padding: 1.5rem;
+box-shadow: 2rem 1rem 1rem rgba(5, 3,2, 10);
+}
